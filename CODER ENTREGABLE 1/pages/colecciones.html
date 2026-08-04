@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Káva | Especialidad en cada grano</title>
+    <link rel="stylesheet" href="../styles/styles.css">
+</head>
+
+<body>
+    <header> <!-- encabezado de la pagina van de h1 a h6 -->
+      <nav class="navbar"> <!-- barra de navegacion -->
+        
+     <!-- Logo de la empresa -->
+    <div class="logo">
+        <img src="../Assets/img/Logo.png" alt="Logo de Káva">
+        <p> Especialidad en cada grano</p>
+    </div>
+
+       <ul class="menu">
+            <li><a href="../index.html">Inicio</a></li>
+            <li><a href="./origenes.html">Orígenes</a></li>
+            <li><a href="./colecciones.html">Colecciones</a></li>
+            <li><a href="./guiadepreparacion.html">Guía de preparación</a></li>
+            <li><a href="./contactanos.html">Contáctanos</a></li>
+        </ul>
+    
+      </nav>
+    </header> 
+
+    <main> <!-- contenido principal de la pagina -->
+
+        <section class="hero-content"> <!-- contenido sobre la imagen -->
+            <h1> Encuentra el café perfecto para ti. </h1>
+
+            <p>
+                Explora cafés de origen único cuidadosamente seleccionados y 
+                tostados para ofrecer perfiles únicos de sabor.
+            </p>
+
+        </section>
+         <section>
+            <h2>Filtro de productos</h2>
+
+         <form>
+             <label for="categoria">Categoría:</label>
+
+            <select id="categoria" name="categoria">
+             <option>Todo</option>
+             <option>Origen Único</option>
+             <option>Blends</option>
+             <option>Accesorios</option>
+             <option>Métodos</option>
+            </select>
+          </form>
+        </section>
+    <section class="colecciones"> <!-- colecciones de productos -->
+
+        <h2 class="titulos-secciones"> Colecciones </h2>
+
+     <article class="card-producto">
+
+        <!-- Fotografía -->
+        <figure class="card-producto__imagen">
+            <!-- TODO: reemplazar por la foto real (falta el archivo, ver Assets/img) -->
+            <img src="../Assets/img/hero.jpg" alt="Bolsa de café Etiopía Idido de Káva">
+            <figcaption>Káva Etiopía — Idido</figcaption>
+        </figure>
+
+        <!-- Información -->
+        <div class="card-producto__contenido">
+
+            <h3 class="card-producto__nombre">
+                Káva Etiopía — Idido
+            </h3>
+
+            <p><strong>País:</strong> Etiopía</p>
+            <p><strong>Altitud:</strong> 1.850 msnm</p>
+            <p><strong>Proceso:</strong> Lavado</p>
+
+            <p><strong>Notas de cata:</strong>
+                Jazmín, Bergamota,Té Negro, Ideal para filtrados.</p>
+            <p>
+                <strong>Nivel de intensidad:</strong>
+                ★★★★☆ (4/5)
+            </p>
+
+            <p class="card-producto__precio">
+                <strong>$12.990</strong>
+            </p>
+
+            <!-- Botones -->
+            <div class="card-producto__acciones">
+                <button class="btn btn-primario">
+                    Agregar al carrito
+                </button>
+
+                <button class="btn btn-secundario">
+                    Ver detalles
+                </button>
+            </div>
+
+        </div>
+
+    </article>
+
+     <article class="card-producto">
+
+        <!-- Fotografía -->
+        <figure class="card-producto__imagen">
+            <!-- TODO: reemplazar por la foto real (falta el archivo, ver Assets/img) -->
+            <img src="../Assets/img/hero.jpg" alt="Bolsa de café Colombia Finca El Paraíso de Káva">
+            <figcaption>Káva Colombia — Finca El Paraíso</figcaption>
+        </figure>
+
+        <!-- Información -->
+        <div class="card-producto__contenido">
+
+            <h3 class="card-producto__nombre">
+                Káva Colombia — Finca El Paraíso
+            </h3>
+
+            <p><strong>País:</strong> Colombia</p>
+            <p><strong>Notas de cata:</strong>
+                Chocolate, Frutos Rojos y Caramelo.</p>
+            <p>
+                <strong>Nivel de intensidad:</strong>
+                ★★★☆☆ (3/5)
+            </p>
+
+            <p class="card-producto__precio">
+                <strong>$14.990</strong>
+            </p>
+
+            <!-- Botones -->
+            <div class="card-producto__acciones">
+                <button class="btn btn-primario">
+                    Agregar al carrito
+                </button>
+
+                <button class="btn btn-secundario">
+                    Ver detalles
+                </button>
+            </div>
+
+        </div>
+
+    </article>
+
+    <article class="card-producto">
+
+        <!-- Fotografía -->
+        <figure class="card-producto__imagen">
+            <!-- TODO: reemplazar por la foto real (falta el archivo, ver Assets/img) -->
+            <img src="../Assets/img/hero.jpg" alt="Bolsa de café Sumatra Mandheling de Káva">
+            <figcaption>Káva Sumatra — Mandheling</figcaption>
+        </figure>
+
+        <!-- Información -->
+        <div class="card-producto__contenido">
+
+            <h3 class="card-producto__nombre">
+                Káva Sumatra — Mandheling
+            </h3>
+
+            <p><strong>País:</strong> Indonesia</p>
+            <p><strong>Altitud:</strong> 1.850 msnm</p>
+            <p><strong>Proceso:</strong> Lavado</p>
+
+            <p><strong>Notas de cata:</strong>
+                Cacao oscuro, Especias, Hierbas.</p>
+            <p>
+                <strong>Nivel de intensidad:</strong>
+                ★★★★★ (5/5) Perfil intenso
+            </p>
+
+            <p class="card-producto__precio">
+                <strong>$15.990</strong>
+            </p>
+
+            <!-- Botones -->
+            <div class="card-producto__acciones">
+                <button class="btn btn-primario">
+                    Agregar al carrito
+                </button>
+
+                <button class="btn btn-secundario">
+                    Ver detalles
+                </button>
+            </div>
+
+        </div>
+
+    </article>
+
+    </section>
+
+    <section class="coleccion-final"> <!-- por qué elegir Káva -->
+
+        <h2 class="titulos-secciones"> ¿No sabes cual elegir? </h2>
+        <p> Descubre nuestro café recomendado según tu método de preparación. </p>
+        <button class="cta-button-principal"> Encuentralo aquí </button>
+
+    </section>
+
+    </main>
+
+    <footer> <!-- pie de pagina -->
+        <p>&copy; Derechos reservados 2026 Káva</p>
+
+        <nav>
+
+            <ul>
+
+                <li><a href="#">Instagram</a></li>
+                <li><a href="#">Spotify</a></li>
+                <li><a href="#">Facebook</a></li>
+
+            </ul>
+
+        </nav>
+
+    </footer> 
+</body>
+   
+</html>

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Káva | Especialidad en cada grano</title>
+    <link rel="stylesheet" href="../styles/styles.css">
+</head>
+
+<body>
+    <header> <!-- encabezado de la pagina van de h1 a h6 -->
+      <nav class="navbar"> <!-- barra de navegacion -->
+        
+     <!-- Logo de la empresa -->
+    <div class="logo">
+        <img src="../Assets/img/Logo.png" alt="Logo de Káva">
+        <p> Especialidad en cada grano</p>
+    </div>
+
+       <ul class="menu">
+            <li><a href="../index.html">Inicio</a></li>
+            <li><a href="./origenes.html">Orígenes</a></li>
+            <li><a href="./colecciones.html">Colecciones</a></li>
+            <li><a href="./guiadepreparacion.html">Guía de preparación</a></li>
+            <li><a href="./contactanos.html">Contáctanos</a></li>
+        </ul>
+    
+      </nav>
+    </header> 
+
+    <main> <!-- contenido principal de la pagina -->
+
+        <section class="hero-content"> <!-- contenido sobre la imagen -->
+            <h1>¿Quieres ser un distribuidor oficial? 
+                estamos aquí para ayudarte a crecer y expandir tu negocio.
+            </h1>
+
+            <p>
+               Café de la más fina seleccion, tostado y empacado para garantizar la frescura y calidad en cada taza.
+            </p>
+
+        </section>
+
+        <section class="presentacion-contacto"> <!-- Sección de información general breve -->
+            <figure>
+                <!-- TODO: reemplazar por una foto real de tu café/local (falta el archivo en Assets/img) -->
+                <img src="../Assets/img/hero.jpg" alt="Bolsas de café Káva listas para distribución">
+                <figcaption>Café de especialidad, listo para llegar a tu negocio.</figcaption>
+            </figure>
+            <p>
+                Trabajamos con cafeterías, hoteles y tiendas que buscan ofrecer café de especialidad
+                con trazabilidad real. Contanos sobre tu negocio y armamos una propuesta a medida.
+            </p>
+        </section>
+
+        <section class="formulario-contacto"> <!-- formulario de contacto -->
+            <h2>Estamos ansiosos de trabajar contigo</h2>
+
+            <form action="mailto:contacto@kava.com" method="post" enctype="text/plain">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+
+                <label for="empresa">Empresa:</label>
+                <input type="text" id="empresa" name="empresa" required>
+
+                <label for="telefono">Teléfono:</label>
+                <input type="tel" id="telefono" name="telefono" required>
+
+                <label for="correo">Correo electrónico:</label>
+                <input type="email" id="correo" name="correo" required>
+
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+
+    </main>
+    
+    <footer> <!-- pie de pagina -->
+        <p>&copy; Derechos reservados 2026 Káva</p>
+
+        <nav>
+
+            <ul>
+
+                <li><a href="#">Instagram</a></li>
+                <li><a href="#">Spotify</a></li>
+                <li><a href="#">Facebook</a></li>
+
+            </ul>
+
+        </nav>
+
+    </footer> 
+</body>
+   
+</html>
